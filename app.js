@@ -58,9 +58,3 @@ app.post("/failure", (req, res) => {
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.listen(procss.env.PORT || 3000, () => console.log("Server is running on port 3000"));
-
-// API key
-// 0c7b7bb69e3c027181901fe2594ee7d5-us21
-
-// List ID
-// 9a4556c041
